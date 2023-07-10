@@ -64,9 +64,10 @@ li{
 .banner-container{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     height: 100vh;
     padding: 10px;
+    padding: 0 100px;
 
 }
 
@@ -91,7 +92,7 @@ li{
 .about-us-content{
     display: flex;
     justify-content: space-around;
-    padding: 20px;
+    padding: 0 100px;
     margin-top: 20px;
 }
 
@@ -103,7 +104,7 @@ li{
 #service{
     background-image: url(./images/background.png),linear-gradient(45deg,rgb(5, 5, 5), #2e2e2e);
     color: white;
-    padding: 50px;
+    padding: 0 100px;
 
 }
 
@@ -146,10 +147,11 @@ footer{
     background-color: rgb(5, 5, 5);
     color: white;
     line-height: 1rem;
+    padding: 0 100px;
 }
 
 .footer-container{
-    width: 75%;
+    width: 100%;
     margin: auto;
     padding: 50px 0;
     border-bottom: 1px solid #2e2e2e;
@@ -157,7 +159,7 @@ footer{
 
 .card-container{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 
 }
 
