@@ -5,6 +5,25 @@
     padding: 0;
 }
 
+.title{
+    font-size: 54px;
+    font-weight: bold;
+    text-align: center;
+}
+
+section{
+    padding: 40px 0;
+}
+
+
+.btn{
+    padding: 13px 20px;
+    border-radius: 3px;
+    border: none;
+    color: white;
+    background-color: red;
+}
+
 
 /* Header Section Design */
 
@@ -66,10 +85,18 @@ li{
     width: 300px;
 }
 
-.btn{
-    padding: 13px 20px;
-    border-radius: 3px;
-    border: none;
-    color: white;
-    background-color: red;
+
+/* About Section Design */
+
+.about-us-content{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    margin-top: 20px;
 }
+
+.about-us-content p{
+    margin: 20px 0;
+}
+
+/* About Section Design */
