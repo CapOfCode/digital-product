@@ -1,13 +1,19 @@
+/* Universal Design */
+
 *{
     margin: 0;
     padding: 0;
 }
 
+
+/* Header Section Design */
+
 header{
     background-image: url(./images/background.png),linear-gradient(45deg, rgb(5, 5, 5), #2e2e2e);
     color: white;
-    height: 100vh;
 }
+
+/* Header Section [Nav] Design */
 
 nav{
     display: flex;
@@ -33,3 +39,37 @@ li{
     margin-left: 17px;
 }
 
+
+/* Header Section [Banner] Design */
+
+.banner-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+    padding: 10px;
+
+}
+
+.banner-title{
+    font-size: 50px;
+    font-weight: bold;
+
+}
+
+.description{
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+.photo{
+    width: 300px;
+}
+
+.btn{
+    padding: 13px 20px;
+    border-radius: 3px;
+    border: none;
+    color: white;
+    background-color: red;
+}
