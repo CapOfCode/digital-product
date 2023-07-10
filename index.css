@@ -99,4 +99,41 @@ li{
     margin: 20px 0;
 }
 
-/* About Section Design */
+/* Service Section Design */
+#service{
+    background-image: url(./images/background.png),linear-gradient(45deg,rgb(5, 5, 5), #2e2e2e);
+    color: white;
+    padding: 50px;
+}
+
+
+.card-container{
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 0;
+}
+
+
+.card{
+    text-align: center;
+    width: 200px;
+    height: 280px;
+    border-radius: 10px;
+    padding: 15px;
+    border: 1px solid grey;
+    box-shadow: 4px 2px 50px gray;
+}
+.icon {
+    width: 70px;
+}
+
+
+.card h1 {
+    margin: 10px 0;
+}
+
+.card-btn{
+    margin: 20px 0;
+    padding: 10px 15px;
+    background-color: #1c1b1b;
+}
